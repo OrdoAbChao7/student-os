@@ -1,5 +1,27 @@
 {
   "version": "7",
   "dialect": "mysql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1787045369239,
+      "tag": "0000_mighty_exiles",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1787045561328,
+      "tag": "0001_spooky_iron_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1787045981543,
+      "tag": "0002_curious_dagger",
+      "breakpoints": true
+    }
+  ]
 }
