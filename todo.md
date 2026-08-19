@@ -16,4 +16,4 @@
 - [x] Add a user-facing task edit flow for title, description, priority, due date, category, and tags.
 - [x] Add project-scoped sub-task creation and completion using the existing user-owned task model.
 - [x] Create a public GitHub repository and push the Student OS project source code.
-- [ ] Verify the public repository contents and deliver the repository URL.
+- [x] Verify the public repository contents and deliver the repository URL.
