@@ -1,8 +1,28 @@
 {
   "name": "student-os",
   "version": "1.0.0",
+  "description": "A true-data personal growth workspace for developers and learners.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrdoAbChao7/student-os.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OrdoAbChao7/student-os/issues"
+  },
+  "homepage": "https://github.com/OrdoAbChao7/student-os#readme",
+  "keywords": [
+    "personal-growth",
+    "productivity",
+    "learning",
+    "student-os",
+    "react",
+    "trpc"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "NODE_ENV=development tsx watch server/_core/index.ts",
     "build": "vite build && esbuild server/_core/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
