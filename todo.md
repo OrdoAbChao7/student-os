@@ -23,3 +23,4 @@
 - [x] Verify the refreshed public repository and deliver the updated repository link.
 - [x] Resolve the GitHub Actions pnpm-version conflict and refresh the Node runtime setup.
 - [ ] Push the CI repair and verify the resulting GitHub Actions workflow succeeds.
+- [x] Disable setup-node automatic package-manager caching so Corepack can provision pnpm after Node setup.
