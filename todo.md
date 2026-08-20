@@ -26,6 +26,6 @@
 - [x] Disable setup-node automatic package-manager caching so Corepack can provision pnpm after Node setup.
 - [x] Add a GitHub Pages Actions workflow that builds and publishes the static client artifact on main-branch pushes.
 - [x] Document the GitHub Pages static-preview boundary and the required Pages activation setting in the repository README.
-- [ ] Validate the Pages build artifact, push the workflow, and verify the GitHub Actions deployment run.
+- [x] Validate the Pages build artifact, push the workflow, and verify the GitHub Actions deployment run.
 - [x] Replace the unbuilt HTML preview artifact with a Vite-built static React preview that is deployed to GitHub Pages.
-- [ ] Enable GitHub Pages with GitHub Actions as the repository publishing source.
+- [x] Enable GitHub Pages with GitHub Actions as the repository publishing source.
