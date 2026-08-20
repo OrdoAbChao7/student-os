@@ -4,6 +4,7 @@ import ErrorBoundary from "@/components/ErrorBoundary";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import Home from "@/pages/Home";
+import GitHubPagesPreview from "@/pages/GitHubPagesPreview";
 import Learning from "@/pages/Learning";
 import NotFound from "@/pages/NotFound";
 import Projects from "@/pages/Projects";
@@ -18,5 +19,6 @@ function Router() {
 }
 
 export default function App() {
+  if (import.meta.env.VITE_STATIC_PREVIEW === "true") return <GitHubPagesPreview />;
   return <ErrorBoundary><ThemeProvider defaultTheme="light" switchable><TooltipProvider><Toaster richColors position="top-right" /><Router /></TooltipProvider></ThemeProvider></ErrorBoundary>;
 }

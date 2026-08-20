@@ -89,6 +89,14 @@ pnpm build
 pnpm format
 ```
 
+## GitHub Pages 静态预览
+
+仓库包含自动化 Pages 工作流。`main` 分支每次推送时，工作流会通过 `build:pages` 构建面向项目页的 React 静态预览，并将 `dist/pages` 中的 Vite 产物发布到 GitHub Pages。启用后默认地址为 <https://ordoabchao7.github.io/student-os/>。
+
+> GitHub Pages 只能托管静态文件，不能运行本项目所需的 Node 服务端、OAuth 回调、tRPC API、数据库或服务端 AI 网关。因此 Pages 站点是项目展示与设计预览，而非完整可登录的 Student OS 实例。完整应用需要部署在支持 Node.js 与数据库的运行环境。
+
+首次启用请前往仓库 **Settings → Pages → Source** 并选择 **GitHub Actions**。完整工作流设计、部署边界与自定义域名说明见 [GitHub Pages 指南](docs/github-pages.md)。
+
 ## 目录结构
 
 ```text

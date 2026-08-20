@@ -151,8 +151,10 @@ function vitePluginManusDebugCollector(): Plugin {
 }
 
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
+const isStaticPreview = process.env.VITE_STATIC_PREVIEW === "true";
 
 export default defineConfig({
+  base: isStaticPreview ? (process.env.VITE_PAGES_BASE ?? "/student-os/") : "/",
   plugins,
   resolve: {
     alias: {
