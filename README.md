@@ -4,6 +4,20 @@
 </div>
 <br>
 
+
+
+<!-- portfolio-authenticity:start -->
+## Project status
+
+**Stage:** Personal student-planning experiment.
+
+**Why I built it:** I built this to try a single workspace for courses, tasks, milestones, and study planning instead of maintaining separate lists across several tools.
+
+**Boundary:** The repository includes a static preview, but the full app depends on its server, database, authentication, and configured integrations. It is not a multi-tenant education platform, and generated planning suggestions require user judgment.
+
+See [PROJECT_STATUS.md](./PROJECT_STATUS.md) for the evidence still needed and the maintenance rule.
+<!-- portfolio-authenticity:end -->
+
 > A real data-driven growth workspace for individual developers and learners.
 
 Student OS unifies tasks, focused time, course learning, personal projects, skill experience, and daily reviews into a single workflow. Its core principle is: do not display fabricated progress, and do not conjure AI conclusions out of thin air. All growth metrics and daily suggestions come from the currently signed-in user's saved real activity records.
